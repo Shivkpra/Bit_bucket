@@ -1,0 +1,154 @@
+.navbar{
+background-color: white !important;   
+}
+.nav-link input {
+  margin-left: 30px;
+  width: 400px;
+  height: 30px;
+
+}
+.nav-link button {
+  background-color: #84c225;
+}
+
+.bucket {
+  margin-left: 220px;
+  margin-top: 30px;
+  width: 150px;
+  height: 60px;
+  background-color: #f2f2f2;
+}
+.bb{
+  width: 20px;
+}
+@media only screen and (max-width: 2560px) {
+  .navbar {
+    padding-left:12% ;
+    margin-top: 0%;
+
+  }
+  .img-main-logo
+  {
+    margin-left: 35%;
+  }
+  .nav-link input {
+    margin-top: 10%;
+    width: 500px;
+  
+  }
+  .input-ms{
+    display: none;
+  }
+
+  .navbar-brand .img-main-logo-toogler {
+    display: none;
+  }
+  .basket {
+    display: none;
+  }
+  .input-md{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .bucket {
+    margin-left: 220px;
+  }
+  .container {
+    width: 1500px;
+  }
+  .navbar-brand .img-main-logo-toogler {
+    display: none;
+  }
+
+  .basket {
+    display: none;
+  }
+  .input-md{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1320px){
+  .nav-link input{
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    margin-left: 0%;
+  }
+
+  .nav-link input {
+    width: 370px;
+  }
+  .bucket {
+    margin-left: 100px;
+  }
+  .navbar-brand .img-main-logo-toogler {
+    display: none;
+  }
+
+  .mtb-2 {
+    display: none;
+  }
+  .input-md{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #84c225 !important;
+    direction: rtl;
+  
+  
+  }
+  
+  .navbar-brand .img-main-logo {
+    display: none;
+  }
+  .navbar-brand .img-main-logo-toogler {
+    display: block;
+    
+  }
+
+  
+   .input-ms{
+    margin-top: 2%;
+    direction: ltr;
+    display: inline;
+   }
+   .input-md{
+     width:700px;
+     margin-right: 5px !important;
+     display: inline;
+     padding-left: 3%;
+     margin-left: -12%;
+    
+   } 
+
+
+
+
+  .bucket {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .input-md{
+    width: 400px;
+    margin-left: -2%;
+    
+  }
+}
+@media only screen and (max-width:375px){
+  .input-md{
+    width: 360px;
+  }
+}
+@media only screen and (max-width:320px){
+  .input-md{
+    width: 310px;
+  }
+}

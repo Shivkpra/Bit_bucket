@@ -1,0 +1,49 @@
+
+h1{
+    font-size: 24px;
+}
+.bank{
+    margin-top: 4%;
+}
+.images-bank{
+    padding-left: 3%;
+    width: 320px;
+}
+@media only screen and (max-width: 1440px){
+    .bank{
+        margin-left: -2%;
+    }
+    .images-bank{
+        width: 290px;
+        padding-left: 1%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .images-bank{
+        width: 220px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .bank{
+        display: block;
+    }
+}
+@media only screen and (max-width:425px){
+    .bank{
+        width: 420px;
+    }
+}
+@media only screen and (max-width:375px){
+    .bank{
+        width: 300px;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width:325px){
+    .bank{
+        width: 280px;
+        margin-left: 10%;
+    }
+}

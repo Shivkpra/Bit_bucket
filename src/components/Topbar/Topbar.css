@@ -1,0 +1,46 @@
+.top{
+    font-family: ProximaNovaA-Regular !important;
+    text-align: center;
+    margin-left: 15%;
+    color: #666666;
+    font-size: 13px;
+    } 
+    .pad-0{
+      padding-left: 1%;
+    }
+@media only screen and (max-width: 1280px) {
+    .top{
+        
+        margin-left:56% !important;
+        font-size: 16px;
+    }
+    .pad-0{
+        padding-left: 2%;
+    }
+    
+}
+@media only screen and (max-width: 1440px)
+{
+    .top{
+        margin-left: 52% !important;
+    }
+}
+    
+    
+@media only screen and (max-width: 2560px) {
+      .top{
+          margin-left: 30%;
+      }
+    }
+    
+@media only screen and (max-width: 1024px){
+    .top{
+    margin-left: 47% !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .top{
+        display: none;
+    }
+}

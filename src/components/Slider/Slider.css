@@ -1,0 +1,14 @@
+.carousel-indicators {
+  margin-top: 20%;
+  
+}
+
+.carousel-indicators button {
+  
+  width: 800px;
+}
+.carousel-indicators .active {
+  background-color: #84c225 !important;
+
+  
+}
